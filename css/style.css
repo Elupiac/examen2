@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	--titulos-blanco:#2a2a2a;
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+#hero{
+	background-image: url("../img/header-bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 10% 0;
+	
+}
+
+#hero h1{
+	color:#FFF;
+	font-family: 'Poppins', sans-serif;
+}
+#hero .btn{
+	border-radius:30px;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color:#FFFFFF;
+}
+#about{
+	padding:50px;
+}
+#about h4{
+	font-size:15px;
+}
+#about h5{
+	font-size:15px;
+	color: var(--color-cafe);
+}
+#about p{
+	color: var(--color-gris);
+}
+#desc{
+	text-align: left;
+}
+#menu{
+	background-image: url("../img/menu-bg.jpg");
+	padding: 2%;
+	padding-bottom: 10%;
+	padding-top:10%;
+	
+}
+#menu h4{
+	color: var(--color-negro);
+	font-size: 18px;
+	text-align:left;
+}
+#menu h5{
+	color: var(--color-cafe);
+	font-size: 18px;
+	text-align:right;
+}
+#menu p{
+	text-align:left;
+	color: var(--color-gris);
+}
+#first-menu img{
+  object-fit: contain;
+
+}
+#kind{
+	padding:10%;
+	
+}
+#blog{
+	align-content: center;
+	padding: 5%;
+	
+}
+#imagen-blog{
+	padding-bottom:5%;
+}
+#imagen-blog-2{
+	padding-bottom:5%;
+}
